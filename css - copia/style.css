@@ -1,0 +1,497 @@
+/* aqui comenzamos a dar nuestro estilo css*/
+
+/*style del header*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Space Grotesk', sans-serif;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    position: sticky;
+    
+    
+}
+
+header img{
+    width: 8rem;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+    
+}
+
+
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+
+/*estilos de main*/
+
+/*estilos de home*/
+
+
+.main-clothe div img{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;   
+}
+
+.main-clothe div iframe{
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem ;
+}
+
+.main-clothe .primer-h2{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*estilos de clothe*/
+
+
+
+.div-cero, .section-dos, .section-3{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    
+
+}
+
+.div-uno, .div-seis{
+    display: none;
+}
+
+.section{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    height: 50%;
+           
+}
+
+.section div img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.section-dos{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    height: 50%;
+}
+
+.section-dos div img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.section-tres{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    height: 50%;
+}
+
+.section-tres div img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+
+/*style de sales*/
+
+
+
+.coming, .img-cuatro{
+    display: none;
+}
+
+.sales{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+}
+
+main p{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: small;
+}
+
+.sales-uno{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    
+}
+
+.sales-uno div img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+/*style de sizes*/
+
+
+.size-cero, .size-uno{
+    display: none;
+}
+
+.size{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+}
+
+.size-tres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-seis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.size-tres img{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover; 
+}
+
+.size-seis img{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.size-cinco table{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: small;
+    border-collapse: separate;
+    border-spacing: 0.5rem;
+    border: 2px solid black;
+    width: 50%;
+    height: 20vh;
+}
+
+.size-cinco table tr td{
+    border: 2px solid black;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+
+
+
+/*style de about us*/
+
+
+
+.ultimo-tres{
+    display: none;
+}
+
+
+
+.aboutus{
+    height: 30vh;    
+    background-image: url(../img/Home\ header-08.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+    
+}
+
+.sobre-nosotros iframe{
+    height: 20vh;
+    width: 20vh;
+}
+
+.sobre-nosotros-uno iframe{
+    height: 20vh;
+    width: 20vh;
+    
+}
+
+.grilla-uno, .grilla-dos{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+
+
+
+.ultimo-cinco{
+    height: 50%;
+    overflow: hidden;
+    padding: 1rem ;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(4, 1fr) ;
+    row-gap: 1rem;
+    
+    
+}
+
+
+.ultimo img{
+    width: 100%;
+    height: 100%;
+}   
+
+
+/*estilos footer*/
+
+
+.atributo{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tributo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    color: black ;
+    gap: 1rem;
+}
+ .pie-tres{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: start;
+    padding: 1rem;
+    gap: 6rem;
+ }
+
+ .pie-tres a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+ }
+    
+
+.tributo h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: small;
+}
+.pie-dos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pie-dos a .pie-2-img-uno{
+    width: 20px;
+    height: 20px; 
+    
+}
+.pie-dos a img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+
+.pie-tres{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: small;
+    margin-left: 1rem;
+    
+}
+
+.pie-tres table td{
+    border: none;
+}
+
+.ico-fixed img{
+    width: 30px;
+    height: 30px;
+}
+
+.ico-fixed{
+    position: fixed;
+    right:20px;
+    bottom: 35px;
+    
+}
+
+
+/*estyles para tablet*/
+
+
+@media screen and (min-width:600px){
+    .div-uno, .div-seis, .size-cero, .size-uno, .ultimo-tres{
+        display: block;
+    }
+    .section{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-dos{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .sales-uno{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .size-tres, .size-seis{
+        flex-direction: row;
+    }
+
+    .size-cero{
+        text-align: center;
+        margin: 1rem;
+        font-family: 'Space Grotesk', sans-serif;
+        text-transform: uppercase;
+    }
+    
+
+    .grilla-uno, .grilla-dos{
+        text-align: center;
+    }
+
+    .img-uno{
+        display: none;
+    }
+
+    .ultimo-cinco{
+        margin-right: 1rem;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: repeat(2, 50%);
+        column-gap: 1rem;
+        
+    }
+
+    .ultimo-cinco .img-dos{
+        grid-row: span 2;
+    }
+
+    .ultimo-tres{
+        text-align: center;
+        margin: 1rem;
+        font-family: 'Space Grotesk', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .iframe-dos{ 
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 1rem;  
+        margin-top: 1rem; 
+    }
+
+    .iframe-dos iframe{
+        width: 100% ;
+        height: 100%;
+    }
+
+    .coming, .img-cuatro{
+        display: block;
+    }
+
+    .coming{
+        text-align: center;
+        margin: 1rem;
+        font-family: 'Space Grotesk', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .img-cuatro{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+/* estilos para escritorio */
+
+@media screen and (min-width:1024px) {
+    .ultimo .ultimo-cinco .img-uno{
+        display: block;
+    }
+
+    .ultimo-cinco div img{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        
+    }
+    .ultimo .ultimo-cinco{
+        gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr) ;
+    }
+
+    .ultimo-cinco .img-dos{
+        grid-row: span 1;
+    }
+    
+}
+
+
+
+
+
+
+
+
